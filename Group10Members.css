@@ -1,0 +1,9 @@
+
+  .group-image {
+    margin-top: 20px;
+    border-radius: 50%;
+    display: block;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+  }
