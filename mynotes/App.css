@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.note-form{
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgb(37, 46, 63),rgba(1,1,1,1));
+  padding: 2rem;
+  gap: .5rem;
+  margin: 3rem;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.main-topic{
+  font-size: 2.4rem;
+
+}
+
+.sub-topic{
+  font-size: 2rem;
+  padding: .5rem;
+}
+
+textarea{
+  resize: none;
+  height: 15rem;
+  padding: 2rem;
+}
+
+button{
+  font-size: 2rem;
+}
+
+.showBtn{
+  position: absolute;
+  bottom: 2rem;
+  right: 1em;
+  border-radius: 1rem;
+  border-style: none;
+  padding: 0.5rem;
+  background: orangered;
+}
+
+input{
+  border-radius: 1em;
+  padding: 0.5em;
+  border-style: none;
+  text-align: center;
+}
